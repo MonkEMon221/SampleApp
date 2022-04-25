@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SampleApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button">Enabled</string>
+    <string name="button1">Disabled</string>
+    <string name="set_corner_radius">Set Corner Radius</string>
+    <string name="set_different_background">Set Different Background Color</string>
+    <string name="enable_dark_theme">Enable Dark Theme</string>
+    <string name="set_different_border_color">Set Different Border Color</string>
+    <string name="enable_light_theme">Enable Light Theme</string>
+    <string name="different_fab_sizes">Different Fab Sizes</string>
+    <string name="texting">What was beyond the bend in the stream was unknown. Both were curious, but only one was brave enough to want to explore. That was the problem. There was always one that let fear rule her life.</string>
+    <string name="type_your_message_here">Type Your Message Here…</string>
+    <string name="text_box_color">Text Box Color</string>
+    <string name="border_color">Border Color</string>
+    <string name="reset">RESET</string>
+    <string name="set_border_width">Set Border Width</string>
+    <string name="set_input_type">Set Input Type</string>
+    <string name="demo_app">Demo App</string>
+    <string name="bold_text">Bold Text</string>
+    <string name="normal_text">Normal text</string>
+    <string name="bordered_cardview">Bordered CardView</string>
+    <string name="clickable_cardview">Clickable CardView</string>
+    <string name="enabled">Enabled</string>
+    <string name="selected_tab_bold_text">Selected Tab Bold Text</string>
+    <string name="setting">Setting</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="default_theme">Default Theme</string>
+    <string name="set_theme">Set Theme:</string>
+
+    <string-array name="InputTypes">
+        <item>email</item>
+        <item>password</item>
+        <item>phone</item>
+        <item>name</item>
+    </string-array>
+</resources>

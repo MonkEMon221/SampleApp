@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".CardView">
+
+    <com.uiLibrary.bobbleLibrary.BobbleCardView
+        android:id="@+id/card"
+        android:layout_width="320sp"
+        android:layout_height="150sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16sp"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/texting"/>
+        </LinearLayout>
+
+    </com.uiLibrary.bobbleLibrary.BobbleCardView>
+
+
+    <com.uiLibrary.bobbleLibrary.BobbleCardView
+        android:clickable="true"
+        android:id="@+id/card2"
+        android:layout_width="320sp"
+        android:layout_height="150sp"
+        app:layout_constraintTop_toBottomOf="@id/card"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:focusable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clickable_cardview"/>
+        </LinearLayout>
+
+    </com.uiLibrary.bobbleLibrary.BobbleCardView>
+
+    <com.uiLibrary.bobbleLibrary.BobbleCardView
+        android:id="@+id/card3"
+        android:layout_width="320sp"
+        android:layout_height="150sp"
+        app:layout_constraintTop_toBottomOf="@id/card2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:strokeColor="#E0F7FA"
+        app:strokeWidth="2dp"
+        app:cardBackgroundColor="@color/cardBackColor"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bordered_cardview"/>
+        </LinearLayout>
+
+    </com.uiLibrary.bobbleLibrary.BobbleCardView>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:paddingLeft="24sp"
+        android:paddingTop="5dp"
+        android:paddingRight="24sp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/textColor"
+        android:text="@string/set_corner_radius"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/card3" />
+
+    <SeekBar
+        android:id="@+id/seek"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:paddingLeft="24sp"
+        android:paddingTop="5dp"
+        android:paddingRight="24sp"
+        android:paddingBottom="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

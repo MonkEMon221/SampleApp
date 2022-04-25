@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FabView">
+
+    <GridLayout
+        android:id="@+id/seek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.uiLibrary.bobbleLibrary.BobbleFab
+            android:id="@+id/fab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:src="@drawable/add_cam"
+            android:backgroundTint="@color/fab1"
+            app:fabCustomSize="80sp"
+            app:maxImageSize="43sp" />
+
+        <com.uiLibrary.bobbleLibrary.BobbleFab
+            android:id="@+id/fab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:src="@drawable/add_cam"
+            android:backgroundTint="@color/fab1"
+            app:fabCustomSize="50sp"
+            app:maxImageSize="26sp" />
+
+        <com.uiLibrary.bobbleLibrary.BobbleFab
+            android:id="@+id/fab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/add_cam"
+            android:layout_margin="16dp"
+            android:backgroundTint="@color/fab2"
+            app:fabCustomSize="80sp"
+            app:maxImageSize="43sp" />
+
+        <com.uiLibrary.bobbleLibrary.BobbleFab
+            android:id="@+id/fab4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:src="@drawable/add_cam"
+            android:backgroundTint="@color/fab2"
+            app:fabCustomSize="50sp"
+            app:maxImageSize="26sp" />
+
+        <com.uiLibrary.bobbleLibrary.BobbleFab
+            android:id="@+id/fab5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:src="@drawable/add_cam"
+            android:backgroundTint="@color/fab3"
+            app:fabCustomSize="80sp"
+            app:maxImageSize="43sp" />
+
+        <com.uiLibrary.bobbleLibrary.BobbleFab
+            android:id="@+id/fab6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/add_cam"
+            android:layout_margin="16dp"
+            android:backgroundTint="@color/fab3"
+            app:fabCustomSize="50sp"
+            app:maxImageSize="26sp" />
+
+        <com.uiLibrary.bobbleLibrary.BobbleFab
+            android:id="@+id/fab7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:src="@drawable/add_cam"
+            android:backgroundTint="@color/fab4"
+            app:fabCustomSize="80sp"
+            app:maxImageSize="43sp" />
+
+        <com.uiLibrary.bobbleLibrary.BobbleFab
+            android:id="@+id/fab8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:src="@drawable/add_cam"
+            android:backgroundTint="@color/fab4"
+            app:fabCustomSize="50sp"
+            app:maxImageSize="26sp" />
+
+        <com.uiLibrary.bobbleLibrary.BobbleFab
+            android:id="@+id/fab9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:src="@drawable/add_cam"
+            android:backgroundTint="@color/fab5"
+            app:fabCustomSize="80sp"
+            app:maxImageSize="43sp" />
+
+        <com.uiLibrary.bobbleLibrary.BobbleFab
+            android:id="@+id/fab10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:src="@drawable/add_cam"
+            android:backgroundTint="@color/fab5"
+            app:fabCustomSize="50sp"
+            app:maxImageSize="26sp" />
+
+    </GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
